@@ -121,7 +121,7 @@
 		A769735020BE9C5500CA8FAA /* iOSLikePlugin */ = {
 			isa = PBXGroup;
 			children = (
-				A76973B920BEA12D00CA8FAA /* Gif */,
+				A76973B920BEA12D00CA8FAA /* Gif(decrepted) */,
 				A76973B620BEA12D00CA8FAA /* QRCode */,
 				A76973B320BEA12D00CA8FAA /* Scan */,
 				A76973C120BEA12D00CA8FAA /* Utils */,
@@ -174,7 +174,7 @@
 			path = QRCode;
 			sourceTree = "<group>";
 		};
-		A76973B920BEA12D00CA8FAA /* Gif */ = {
+		A76973B920BEA12D00CA8FAA /* Gif(decrepted) */ = {
 			isa = PBXGroup;
 			children = (
 				A76973BA20BEA12D00CA8FAA /* CTYGifDisplayLineImage.h */,
@@ -185,7 +185,7 @@
 				A76973BF20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.h */,
 				A76973C020BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.h */,
 			);
-			path = Gif;
+			path = "Gif(decrepted)";
 			sourceTree = "<group>";
 		};
 		A76973C120BEA12D00CA8FAA /* Utils */ = {

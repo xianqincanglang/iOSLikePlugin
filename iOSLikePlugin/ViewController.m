@@ -21,7 +21,7 @@
 
 {
     UITableView *tableView;
-    NSArray *tableViewDataArray;
+    NSMutableArray *tableViewDataArray;
 }
 @end
 
@@ -34,7 +34,12 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"世界,你好";
     self.view.backgroundColor = [UIColor whiteColor];
-    tableViewDataArray = @[kGifFanye,kQRScan,kQRCreate];
+    tableViewDataArray = [NSMutableArray array];
+
+//    [tableViewDataArray addObject:kGifFanye];
+    [tableViewDataArray addObject:kQRScan];
+    [tableViewDataArray addObject:kQRCreate];
+
     [self createSubView];
     
 }
