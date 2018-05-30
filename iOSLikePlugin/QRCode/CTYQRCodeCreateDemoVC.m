@@ -7,7 +7,7 @@
 //
 
 #import "CTYQRCodeCreateDemoVC.h"
-#import "CTYUtilsConstant.h"
+#import "Constant.h"
 /**
  限制:iOS 7之后，可使用苹果生成二维码
  1.使用CIFilter滤镜类生成二维码

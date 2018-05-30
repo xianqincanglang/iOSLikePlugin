@@ -21,7 +21,9 @@
 		A76973C720BEA12E00CA8FAA /* CTYGifDisplayLineImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973BC20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.m */; };
 		A76973C820BEA12E00CA8FAA /* CTYGifFanyeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973BD20BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.m */; };
 		A76973C920BEA12E00CA8FAA /* CTYGifDisplayLineImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973BE20BEA12D00CA8FAA /* CTYGifDisplayLineImage.m */; };
-		A76973CA20BEA12E00CA8FAA /* CTYUtilsConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973C220BEA12D00CA8FAA /* CTYUtilsConstant.m */; };
+		A76973CF20BEAB2400CA8FAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A76973CE20BEAB2300CA8FAA /* README.md */; };
+		A76973D620BEAD7A00CA8FAA /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973D520BEAD7A00CA8FAA /* NSString+Utils.m */; };
+		A76973D920BEADA300CA8FAA /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973D820BEADA300CA8FAA /* NSDictionary+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +71,12 @@
 		A76973BE20BEA12D00CA8FAA /* CTYGifDisplayLineImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYGifDisplayLineImage.m; sourceTree = "<group>"; };
 		A76973BF20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYGifDisplayLineImageView.h; sourceTree = "<group>"; };
 		A76973C020BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYGifFanyeDemoViewController.h; sourceTree = "<group>"; };
-		A76973C220BEA12D00CA8FAA /* CTYUtilsConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYUtilsConstant.m; sourceTree = "<group>"; };
-		A76973C320BEA12D00CA8FAA /* CTYUtilsConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYUtilsConstant.h; sourceTree = "<group>"; };
+		A76973CE20BEAB2300CA8FAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A76973D020BEABBB00CA8FAA /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		A76973D420BEAD7A00CA8FAA /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		A76973D520BEAD7A00CA8FAA /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		A76973D720BEADA300CA8FAA /* NSDictionary+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		A76973D820BEADA300CA8FAA /* NSDictionary+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		A769734520BE9C5500CA8FAA = {
 			isa = PBXGroup;
 			children = (
+				A76973CE20BEAB2300CA8FAA /* README.md */,
 				A769735020BE9C5500CA8FAA /* iOSLikePlugin */,
 				A769736920BE9C5600CA8FAA /* iOSLikePluginTests */,
 				A769737420BE9C5700CA8FAA /* iOSLikePluginUITests */,
@@ -191,8 +198,11 @@
 		A76973C120BEA12D00CA8FAA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A76973C220BEA12D00CA8FAA /* CTYUtilsConstant.m */,
-				A76973C320BEA12D00CA8FAA /* CTYUtilsConstant.h */,
+				A76973D020BEABBB00CA8FAA /* Constant.h */,
+				A76973D420BEAD7A00CA8FAA /* NSString+Utils.h */,
+				A76973D520BEAD7A00CA8FAA /* NSString+Utils.m */,
+				A76973D720BEADA300CA8FAA /* NSDictionary+Utils.h */,
+				A76973D820BEADA300CA8FAA /* NSDictionary+Utils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -302,6 +312,7 @@
 			files = (
 				A769735E20BE9C5600CA8FAA /* LaunchScreen.storyboard in Resources */,
 				A76973C620BEA12E00CA8FAA /* gif_fanye.gif in Resources */,
+				A76973CF20BEAB2400CA8FAA /* README.md in Resources */,
 				A769735B20BE9C5600CA8FAA /* Assets.xcassets in Resources */,
 				A769735920BE9C5500CA8FAA /* Main.storyboard in Resources */,
 			);
@@ -328,11 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76973D920BEADA300CA8FAA /* NSDictionary+Utils.m in Sources */,
 				A76973C520BEA12E00CA8FAA /* CTYQRCodeCreateDemoVC.m in Sources */,
-				A76973CA20BEA12E00CA8FAA /* CTYUtilsConstant.m in Sources */,
 				A76973C820BEA12E00CA8FAA /* CTYGifFanyeDemoViewController.m in Sources */,
 				A76973C920BEA12E00CA8FAA /* CTYGifDisplayLineImage.m in Sources */,
 				A769735620BE9C5500CA8FAA /* ViewController.m in Sources */,
+				A76973D620BEAD7A00CA8FAA /* NSString+Utils.m in Sources */,
 				A769736120BE9C5600CA8FAA /* main.m in Sources */,
 				A76973C420BEA12E00CA8FAA /* CTYScanViewController.m in Sources */,
 				A769735320BE9C5500CA8FAA /* AppDelegate.m in Sources */,
@@ -507,6 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9HR3C854V;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/iOSLikePlugin/Utils";
 				INFOPLIST_FILE = iOSLikePlugin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -524,6 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D9HR3C854V;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/iOSLikePlugin/Utils";
 				INFOPLIST_FILE = iOSLikePlugin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
