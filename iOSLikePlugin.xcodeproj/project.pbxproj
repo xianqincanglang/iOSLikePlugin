@@ -15,6 +15,13 @@
 		A769736120BE9C5600CA8FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A769736020BE9C5600CA8FAA /* main.m */; };
 		A769736B20BE9C5600CA8FAA /* iOSLikePluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A769736A20BE9C5600CA8FAA /* iOSLikePluginTests.m */; };
 		A769737620BE9C5700CA8FAA /* iOSLikePluginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A769737520BE9C5700CA8FAA /* iOSLikePluginUITests.m */; };
+		A76973C420BEA12E00CA8FAA /* CTYScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973B420BEA12D00CA8FAA /* CTYScanViewController.m */; };
+		A76973C520BEA12E00CA8FAA /* CTYQRCodeCreateDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973B720BEA12D00CA8FAA /* CTYQRCodeCreateDemoVC.m */; };
+		A76973C620BEA12E00CA8FAA /* gif_fanye.gif in Resources */ = {isa = PBXBuildFile; fileRef = A76973BB20BEA12D00CA8FAA /* gif_fanye.gif */; };
+		A76973C720BEA12E00CA8FAA /* CTYGifDisplayLineImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973BC20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.m */; };
+		A76973C820BEA12E00CA8FAA /* CTYGifFanyeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973BD20BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.m */; };
+		A76973C920BEA12E00CA8FAA /* CTYGifDisplayLineImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973BE20BEA12D00CA8FAA /* CTYGifDisplayLineImage.m */; };
+		A76973CA20BEA12E00CA8FAA /* CTYUtilsConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973C220BEA12D00CA8FAA /* CTYUtilsConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		A769737120BE9C5600CA8FAA /* iOSLikePluginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLikePluginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A769737520BE9C5700CA8FAA /* iOSLikePluginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLikePluginUITests.m; sourceTree = "<group>"; };
 		A769737720BE9C5700CA8FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76973B420BEA12D00CA8FAA /* CTYScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYScanViewController.m; sourceTree = "<group>"; };
+		A76973B520BEA12D00CA8FAA /* CTYScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYScanViewController.h; sourceTree = "<group>"; };
+		A76973B720BEA12D00CA8FAA /* CTYQRCodeCreateDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYQRCodeCreateDemoVC.m; sourceTree = "<group>"; };
+		A76973B820BEA12D00CA8FAA /* CTYQRCodeCreateDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYQRCodeCreateDemoVC.h; sourceTree = "<group>"; };
+		A76973BA20BEA12D00CA8FAA /* CTYGifDisplayLineImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYGifDisplayLineImage.h; sourceTree = "<group>"; };
+		A76973BB20BEA12D00CA8FAA /* gif_fanye.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_fanye.gif; sourceTree = "<group>"; };
+		A76973BC20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYGifDisplayLineImageView.m; sourceTree = "<group>"; };
+		A76973BD20BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYGifFanyeDemoViewController.m; sourceTree = "<group>"; };
+		A76973BE20BEA12D00CA8FAA /* CTYGifDisplayLineImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYGifDisplayLineImage.m; sourceTree = "<group>"; };
+		A76973BF20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYGifDisplayLineImageView.h; sourceTree = "<group>"; };
+		A76973C020BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYGifFanyeDemoViewController.h; sourceTree = "<group>"; };
+		A76973C220BEA12D00CA8FAA /* CTYUtilsConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTYUtilsConstant.m; sourceTree = "<group>"; };
+		A76973C320BEA12D00CA8FAA /* CTYUtilsConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTYUtilsConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,10 @@
 		A769735020BE9C5500CA8FAA /* iOSLikePlugin */ = {
 			isa = PBXGroup;
 			children = (
+				A76973B920BEA12D00CA8FAA /* Gif */,
+				A76973B620BEA12D00CA8FAA /* QRCode */,
+				A76973B320BEA12D00CA8FAA /* Scan */,
+				A76973C120BEA12D00CA8FAA /* Utils */,
 				A769735120BE9C5500CA8FAA /* AppDelegate.h */,
 				A769735220BE9C5500CA8FAA /* AppDelegate.m */,
 				A769735420BE9C5500CA8FAA /* ViewController.h */,
@@ -130,6 +154,47 @@
 				A769737720BE9C5700CA8FAA /* Info.plist */,
 			);
 			path = iOSLikePluginUITests;
+			sourceTree = "<group>";
+		};
+		A76973B320BEA12D00CA8FAA /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				A76973B420BEA12D00CA8FAA /* CTYScanViewController.m */,
+				A76973B520BEA12D00CA8FAA /* CTYScanViewController.h */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		A76973B620BEA12D00CA8FAA /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				A76973B720BEA12D00CA8FAA /* CTYQRCodeCreateDemoVC.m */,
+				A76973B820BEA12D00CA8FAA /* CTYQRCodeCreateDemoVC.h */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		A76973B920BEA12D00CA8FAA /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				A76973BA20BEA12D00CA8FAA /* CTYGifDisplayLineImage.h */,
+				A76973BB20BEA12D00CA8FAA /* gif_fanye.gif */,
+				A76973BC20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.m */,
+				A76973BD20BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.m */,
+				A76973BE20BEA12D00CA8FAA /* CTYGifDisplayLineImage.m */,
+				A76973BF20BEA12D00CA8FAA /* CTYGifDisplayLineImageView.h */,
+				A76973C020BEA12D00CA8FAA /* CTYGifFanyeDemoViewController.h */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		A76973C120BEA12D00CA8FAA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A76973C220BEA12D00CA8FAA /* CTYUtilsConstant.m */,
+				A76973C320BEA12D00CA8FAA /* CTYUtilsConstant.h */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A769735E20BE9C5600CA8FAA /* LaunchScreen.storyboard in Resources */,
+				A76973C620BEA12E00CA8FAA /* gif_fanye.gif in Resources */,
 				A769735B20BE9C5600CA8FAA /* Assets.xcassets in Resources */,
 				A769735920BE9C5500CA8FAA /* Main.storyboard in Resources */,
 			);
@@ -262,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76973C520BEA12E00CA8FAA /* CTYQRCodeCreateDemoVC.m in Sources */,
+				A76973CA20BEA12E00CA8FAA /* CTYUtilsConstant.m in Sources */,
+				A76973C820BEA12E00CA8FAA /* CTYGifFanyeDemoViewController.m in Sources */,
+				A76973C920BEA12E00CA8FAA /* CTYGifDisplayLineImage.m in Sources */,
 				A769735620BE9C5500CA8FAA /* ViewController.m in Sources */,
 				A769736120BE9C5600CA8FAA /* main.m in Sources */,
+				A76973C420BEA12E00CA8FAA /* CTYScanViewController.m in Sources */,
 				A769735320BE9C5500CA8FAA /* AppDelegate.m in Sources */,
+				A76973C720BEA12E00CA8FAA /* CTYGifDisplayLineImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
