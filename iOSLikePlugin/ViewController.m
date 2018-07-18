@@ -32,7 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.title = @"世界,你好";
+//    self.title = @"世界,你好";
     self.view.backgroundColor = [UIColor whiteColor];
     tableViewDataArray = [NSMutableArray array];
 
@@ -41,8 +41,53 @@
     [tableViewDataArray addObject:kQRCreate];
 
     [self createSubView];
-    
+	
+//    NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithCapacity:4];
+//    [userInfo setValue:@"1" forKey:@"1"];
+//    [userInfo setValue:@"1" forKey:@"2"];
+////    [userInfo setValue:@"1" forKey:@"3"];
+////    [userInfo setValue:@"1" forKey:@"4"];
+////    [userInfo setValue:@"1" forKey:@"5"];
+////    [userInfo setValue:@"1" forKey:@"6"];
+//    NSLog(@"你好%@",userInfo);
+//	UIView *tempView = [[UIView alloc] initWithFrame:CGRectMake(50, 50, 100, 200)]
+//	[self.view addSubview:tempView];
+//
+//	UIButton *temp = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 40)];
+//	[temp setTitle:@"你好" forState:UIControlStateNormal];
+//	[temp setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+//	[tempView addSubview:temp];
+//	tempView.backgroundColor = [UIColor ]
+	
+//	UIImageView *bgImage = [[UIImageView alloc] initWithFrame:CGRectMake(40, 20, 88, 88)];
+//	bgImage.layer.cornerRadius = 44;
+//	bgImage.clipsToBounds = YES;
+//	bgImage.image = [UIImage imageNamed:<#(nonnull NSString *)#>];
+//	[self.view addSubview:bgImage];
+//
+//	UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(40, 20, 88, 88)];
+//	image.backgroundColor = [UIColor clearColor];
+//	bgImage.layer.cornerRadius = 44;
+//	bgImage.clipsToBounds = YES;
+//	bgImage.image = [UIImage imageNamed:<#(nonnull NSString *)#>];
+//	[self.view addSubview:bgImage];
+	
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好1"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好12"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好123"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好1234"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好-_"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好—_%"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好a"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好A"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好Ab"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好Abc"]);
+//	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好Abc_"]);
 }
+
+//汉字:2个字符，
+
 
 - (void)createSubView
 {

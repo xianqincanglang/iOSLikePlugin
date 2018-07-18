@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72E7FE320FEE4F400231A6C /* CTYQRCodeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A72E7FE220FEE4F400231A6C /* CTYQRCodeHandler.m */; };
+		A732DB5520FC9AAC007C152B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A732DB5720FC9AAC007C152B /* Localizable.strings */; };
 		A769735320BE9C5500CA8FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A769735220BE9C5500CA8FAA /* AppDelegate.m */; };
 		A769735620BE9C5500CA8FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A769735520BE9C5500CA8FAA /* ViewController.m */; };
 		A769735920BE9C5500CA8FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A769735720BE9C5500CA8FAA /* Main.storyboard */; };
@@ -44,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A72E7FE120FEE4F400231A6C /* CTYQRCodeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTYQRCodeHandler.h; sourceTree = "<group>"; };
+		A72E7FE220FEE4F400231A6C /* CTYQRCodeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTYQRCodeHandler.m; sourceTree = "<group>"; };
+		A732DB5120FC9A5E007C152B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A732DB5220FC9A5F007C152B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A732DB5620FC9AAC007C152B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A732DB5920FC9ABF007C152B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A732DB5A20FC9AD1007C152B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		A769734E20BE9C5500CA8FAA /* iOSLikePlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLikePlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A769735120BE9C5500CA8FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A769735220BE9C5500CA8FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +150,7 @@
 				A769735C20BE9C5600CA8FAA /* LaunchScreen.storyboard */,
 				A769735F20BE9C5600CA8FAA /* Info.plist */,
 				A769736020BE9C5600CA8FAA /* main.m */,
+				A732DB5720FC9AAC007C152B /* Localizable.strings */,
 			);
 			path = iOSLikePlugin;
 			sourceTree = "<group>";
@@ -177,6 +187,8 @@
 			children = (
 				A76973B720BEA12D00CA8FAA /* CTYQRCodeCreateDemoVC.m */,
 				A76973B820BEA12D00CA8FAA /* CTYQRCodeCreateDemoVC.h */,
+				A72E7FE120FEE4F400231A6C /* CTYQRCodeHandler.h */,
+				A72E7FE220FEE4F400231A6C /* CTYQRCodeHandler.m */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
@@ -292,6 +304,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = A769734520BE9C5500CA8FAA;
 			productRefGroup = A769734F20BE9C5500CA8FAA /* Products */;
@@ -311,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A769735E20BE9C5600CA8FAA /* LaunchScreen.storyboard in Resources */,
+				A732DB5520FC9AAC007C152B /* Localizable.strings in Resources */,
 				A76973C620BEA12E00CA8FAA /* gif_fanye.gif in Resources */,
 				A76973CF20BEAB2400CA8FAA /* README.md in Resources */,
 				A769735B20BE9C5600CA8FAA /* Assets.xcassets in Resources */,
@@ -347,6 +361,7 @@
 				A76973D620BEAD7A00CA8FAA /* NSString+Utils.m in Sources */,
 				A769736120BE9C5600CA8FAA /* main.m in Sources */,
 				A76973C420BEA12E00CA8FAA /* CTYScanViewController.m in Sources */,
+				A72E7FE320FEE4F400231A6C /* CTYQRCodeHandler.m in Sources */,
 				A769735320BE9C5500CA8FAA /* AppDelegate.m in Sources */,
 				A76973C720BEA12E00CA8FAA /* CTYGifDisplayLineImageView.m in Sources */,
 			);
@@ -384,10 +399,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A732DB5720FC9AAC007C152B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A732DB5620FC9AAC007C152B /* en */,
+				A732DB5920FC9ABF007C152B /* Base */,
+				A732DB5A20FC9AD1007C152B /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A769735720BE9C5500CA8FAA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A769735820BE9C5500CA8FAA /* Base */,
+				A732DB5120FC9A5E007C152B /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -396,6 +422,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A769735D20BE9C5600CA8FAA /* Base */,
+				A732DB5220FC9A5F007C152B /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -407,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -465,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
