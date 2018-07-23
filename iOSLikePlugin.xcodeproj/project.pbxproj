@@ -26,6 +26,7 @@
 		A76973CF20BEAB2400CA8FAA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A76973CE20BEAB2300CA8FAA /* README.md */; };
 		A76973D620BEAD7A00CA8FAA /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973D520BEAD7A00CA8FAA /* NSString+Utils.m */; };
 		A76973D920BEADA300CA8FAA /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A76973D820BEADA300CA8FAA /* NSDictionary+Utils.m */; };
+		A7D793162105D2280077276F /* CTYUILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D793152105D2280077276F /* CTYUILabelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		A76973D520BEAD7A00CA8FAA /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 		A76973D720BEADA300CA8FAA /* NSDictionary+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
 		A76973D820BEADA300CA8FAA /* NSDictionary+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
+		A7D793142105D2280077276F /* CTYUILabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTYUILabelViewController.h; sourceTree = "<group>"; };
+		A7D793152105D2280077276F /* CTYUILabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTYUILabelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,7 @@
 		A769735020BE9C5500CA8FAA /* iOSLikePlugin */ = {
 			isa = PBXGroup;
 			children = (
+				A7D793132105D1890077276F /* Other */,
 				A76973B920BEA12D00CA8FAA /* Gif(decrepted) */,
 				A76973B620BEA12D00CA8FAA /* QRCode */,
 				A76973B320BEA12D00CA8FAA /* Scan */,
@@ -217,6 +221,15 @@
 				A76973D820BEADA300CA8FAA /* NSDictionary+Utils.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A7D793132105D1890077276F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7D793142105D2280077276F /* CTYUILabelViewController.h */,
+				A7D793152105D2280077276F /* CTYUILabelViewController.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +376,7 @@
 				A76973C420BEA12E00CA8FAA /* CTYScanViewController.m in Sources */,
 				A72E7FE320FEE4F400231A6C /* CTYQRCodeHandler.m in Sources */,
 				A769735320BE9C5500CA8FAA /* AppDelegate.m in Sources */,
+				A7D793162105D2280077276F /* CTYUILabelViewController.m in Sources */,
 				A76973C720BEA12E00CA8FAA /* CTYGifDisplayLineImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

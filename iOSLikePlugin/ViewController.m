@@ -12,11 +12,14 @@
 #import "CTYScanViewController.h"
 #import "CTYGifFanyeDemoViewController.h"
 #import "CTYQRCodeCreateDemoVC.h"
+#import "CTYUILabelViewController.h"
 #include <sys/stat.h>
+#import "Constant.h"
 
 #define kGifFanye   @"gif翻页"
 #define kQRScan     @"二维码扫码"
 #define kQRCreate   @"二维码生成"
+#define kCTYUILabel @"UILabel"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 {
@@ -33,15 +36,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    self.title = @"世界,你好";
-    self.view.backgroundColor = [UIColor whiteColor];
-    tableViewDataArray = [NSMutableArray array];
-
-//    [tableViewDataArray addObject:kGifFanye];
-    [tableViewDataArray addObject:kQRScan];
-    [tableViewDataArray addObject:kQRCreate];
-
-    [self createSubView];
-	
+	self.view.backgroundColor = [UIColor whiteColor];
+	[self testPage];
 //    NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithCapacity:4];
 //    [userInfo setValue:@"1" forKey:@"1"];
 //    [userInfo setValue:@"1" forKey:@"2"];
@@ -85,10 +81,22 @@
 //	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好Abc"]);
 //	NSLog(@"%ld/n",[self unicodeLengthOfString:@"你好Abc_"]);
 }
+- (void)testPage
+{
+	
+	tableViewDataArray = [NSMutableArray array];
+	
+	//    [tableViewDataArray addObject:kGifFanye];
+	[tableViewDataArray addObject:kQRScan];
+	[tableViewDataArray addObject:kQRCreate];
+	[tableViewDataArray addObject:kCTYUILabel];
+	
+	[self createSubView];
+}
+	
 
+	
 //汉字:2个字符，
-
-
 - (void)createSubView
 {
     tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
@@ -122,7 +130,9 @@
         vc = [[CTYScanViewController alloc] init];
     }else if ([cellTitle isEqualToString:kQRCreate]){
         vc = [[CTYQRCodeCreateDemoVC alloc] init];
-    }
+	}else if ([cellTitle isEqualToString:kCTYUILabel]){
+		vc = [[CTYUILabelViewController alloc] init];
+	}
     
     [self.navigationController pushViewController:vc animated:NO];
 }
