@@ -9,6 +9,13 @@
 #import "CTYQRCodeHandler.h"
 #import "Constant.h"
 
+/*
+ 查看资料
+ https://cli.im/news/help/category/renshierweima
+ https://cli.im/news/260
+ https://cli.im/news/tag/qr%E7%A0%81%E7%BA%A0%E9%94%99%E8%83%BD%E5%8A%9B
+ */
+
 
 @implementation CTYQRCodeHandler
 
@@ -27,7 +34,8 @@
 	//设置数据(通过filter的kvc)
 	NSData *infoData = [dataStr dataUsingEncoding:NSUTF8StringEncoding];
 	[filter setValue:infoData forKeyPath:@"inputMessage"];
-	[filter setValue:@"H" forKey:@"inputCorrectionLevel"];
+	[filter setValue:@"M" forKey:@"inputCorrectionLevel"];
+	//容错率：https://cli.im/news/help/21072，可根据图像确定容错率级别;
 	
 //	//上色
 //	CIFilter *colorFilter = [CIFilter filterWithName:@"CIFalseColor"
